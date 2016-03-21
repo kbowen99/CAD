@@ -1,0 +1,2 @@
+#Filastruder Tripod Mount
+I wanted to be able to mount my filastruder to a tripod for an adjustable angle to find the best mount. it uses an M8 bolt & Nut to mount the filastruder. It is surprisingly secure
