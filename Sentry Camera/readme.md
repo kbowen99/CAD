@@ -13,3 +13,4 @@ CAD Checklist:
  - [ ] Camera Mount Adapter (CMA)
  - [ ] Wiring Diagram
  - [ ] Parts List
+ - [ ] Code
