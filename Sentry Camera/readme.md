@@ -2,7 +2,7 @@
 This is the Working Repository for a 3d printed & Lasercut autonomous camera "Gimbal"
 
 Checklist:
- - [ ] Inner Frame
+ - [x] Inner Frame
  - [ ] Outer Frame
  - [x] Idler Spacer (IS)
  - [x] Motor Spacer (MS)
@@ -10,7 +10,7 @@ Checklist:
  - [x] Corner Spacer (CS)
  - [x] Drive Spacer (DS)
  - [x] Camera Mount Adapter (CMA)
- - [ ] Working Assembly
+ - [x] ~Working Assembly
  - [ ] Wiring Diagram
  - [ ] Parts List
  - [ ] Code
