@@ -14,3 +14,6 @@ CAD Checklist:
  - [ ] Wiring Diagram
  - [ ] Parts List
  - [ ] Code
+ 
+Design Standards:
+ - [ ] 60X60mm Spacer Standard
