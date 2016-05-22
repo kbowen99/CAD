@@ -4,12 +4,12 @@ This is the Working Repository for a 3d printed & Lasercut autonomous camera "Gi
 Checklist:
  - [ ] Inner Frame
  - [ ] Outer Frame
- - [ ] Idler Spacer (IS)
+ - [x] Idler Spacer (IS)
  - [x] Motor Spacer (MS)
  - [x] Tripod Spacer (TS)
  - [x] Corner Spacer (CS)
  - [x] Drive Spacer (DS)
- - [ ] Camera Mount Adapter (CMA)
+ - [x] Camera Mount Adapter (CMA)
  - [ ] Working Assembly
  - [ ] Wiring Diagram
  - [ ] Parts List
