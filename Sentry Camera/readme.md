@@ -3,7 +3,7 @@ This is the Working Repository for a 3d printed & Lasercut autonomous camera "Gi
 
 Checklist:
  - [x] Inner Frame
- - [ ] Outer Frame
+ - [x] Outer Frame
  - [x] Idler Spacer (IS)
  - [x] Motor Spacer (MS)
  - [x] Tripod Spacer (TS)
