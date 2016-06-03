@@ -500,3 +500,52 @@ void assignPins() {
 }
 
 
+
+//Servo Stepper Code
+
+class ServoStepper{
+  public:
+    int stepPin;
+    int dirPin;
+    int stepToDegree;
+    //boolean invertDir = true;
+
+    void init(){
+      pinMode(stepPin, OUTPUT);
+      pinMode(dirPin, OUTPUT);
+    }
+
+    void toStep(int whereTo){
+      while (curStep != whereTo){
+        nStep(whereTo);
+      }
+    }
+  private:
+    unsigned long curStep = 0;
+
+    void Step(boolean dir){
+      digitalWrite(dirPin, dir);
+      digitalWrite(stepPin, HIGH);
+      delay(3);
+      digitalWrite(stepPin, LOW);
+      delay(1);
+      if (dir){
+        curStep = curStep + 1;
+      } else {
+        curStep = curStep - 1;
+      }
+    }
+    
+    bool nStep(int stepTo){
+      if (curStep < stepTo){
+        //Need to Step Forward
+        Step(true);
+      }
+      if (curStep > stepTo){
+        //Need to Step Back
+        Step(false);
+      }
+    }
+}
+
+
