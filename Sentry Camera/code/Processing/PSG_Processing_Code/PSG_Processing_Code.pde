@@ -173,8 +173,9 @@ void setup() {
   
   loadSettings();
   
+  //size(320, 240);
   size(camWidth, camHeight);                  // some users have reported a faster framerate when the code utilizes OpenGL. To try this, comment out this line and uncomment the line below.
-//  size(camWidth, camHeight, OPENGL);
+  //size(camWidth, camHeight, OPENGL);
   minim = new Minim(this);
   loadSounds();
   playSound(18);
@@ -695,4 +696,3 @@ public void stop() {
   camInput.stop();
   super.stop();
 }
-
